@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+   /* Font */
+   --poppins: "Poppins";
+   --lato: "Lato"; 
+   /* Weight */
+   --sm: 300; 
+   --sm-1: 400;
+   --md: 500; 
+   --lg: 700;
+}
+
+p {font-family: var(--lato); font-weight: var(--sm-1); font-size: 1.2rem;}
