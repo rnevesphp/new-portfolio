@@ -4,12 +4,12 @@
 Aprendendo a implementar soluções rápidas, leves, bonitas e com responsividade em projetos futuros com o framework Materialize.
 
 
-## Authors
+### Authors
 
 - [@rnevesphp](https://github.com/rnevesphp)
 
 
-## Reference
+### Reference
  - [Doc Materialize](https://materializecss.com/)
  - [Node Studio - Curso Materialize](https://www.nodestudio.com.br/curso/curso-de-materialize-css)
 
