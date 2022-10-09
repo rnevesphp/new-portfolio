@@ -1,30 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- style -->
    <link rel="stylesheet" href="css/materialize.css">
    <link rel="stylesheet" href="css/custom.css">
-   <title>Materialize Web</title>
+   <!-- different favicon  -->
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+   <link rel="manifest" href="site.webmanifest">
+   <!-- icons -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+   <title>Uncoder</title>
 </head>
 
 <body>
-   <div class="row">
-      <div class="col s6 red">5</div>
-      <div class="col s6 blue">5</div>
+   <header>
+      <nav>
+         <div class="nav-wrapper header">
+            <a href="#" class="brand-logo">UNCODER</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <li><a href="#">Início</a></li>
+               <li><a href="#">Quem sou</a></li>
+               <li><a href="#">Conhecimentos</a></li>
+               <li><a href="#">Projetos</a></li>
+               <li><a href="#">Contato</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+
+   <!-- button floating in SM and MD devices -->
+   <div class="fixed-action-btn hide-on-med-and-up">
+      <a class="btn-floating btn-large waves-circle" style="background-color: #F54C5B;">
+         <i class="large material-icons">menu</i>
+      </a>
+      <ul>
+         <li>
+            <a style="background-color: #F54C5B;" class="btn-floating"><i class="material-icons">north</i></a>
+         </li>
+         <li>
+            <a style="background-color: #F54C5B;" class="btn-floating"><i class="material-icons">person</i></a>
+         </li>
+         <li>
+            <a style="background-color: #F54C5B;" class="btn-floating"><i class="material-icons">code</i></a>
+         </li>
+         <li>
+            <a style="background-color: #F54C5B;" class="btn-floating"><i class="material-icons">construction</i></a>
+         </li>
+         <li>
+            <a style="background-color: #F54C5B;" class="btn-floating"><i class="material-icons">email</i></a>
+         </li>
+      </ul>
    </div>
 
-   <div class="row">
-      <div class="col s4 red">4</div>
-      <div class="col s4 green">4</div>
-      <div class="col s4 blue">4</div>
-   </div>
+   <section class="welcome">
+      <div class="banner row">
+         <div class="banner-info col s8 red">
+            <h1 class="flow-text">Criação, aplicação e melhora de produtos digitais com alta qualidade e rendimento
+               superior.</h1>
+            <p>Projetos de alta qualidade com rápida entrega para o mercado, trazendo conforto, despreocupação e
+               elegância</p>
+         </div>
 
+      </div>
+   </section>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
    <script src="js/materialize.js"></script>
-</body>
 
+   <script>
+      // button initialization
+      document.addEventListener('DOMContentLoaded', function () {
+         var elems = document.querySelectorAll('.fixed-action-btn');
+         var instances = M.FloatingActionButton.init(elems, {
+            direction: 'top',
+            hoverEnabled: false
+         });
+      });
+   </script>
+</body>
 
 </html>

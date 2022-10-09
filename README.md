@@ -3,7 +3,6 @@
 
 Aprendendo a implementar soluções rápidas, leves, bonitas e com responsividade em projetos futuros com o framework Materialize.
 
-
 ### Authors
 
 - [@rnevesphp](https://github.com/rnevesphp)

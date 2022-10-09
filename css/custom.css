@@ -9,6 +9,51 @@
    --sm-1: 400;
    --md: 500; 
    --lg: 700;
+
+   --color-1: #F54C5B
+   ; 
+   --color-2: #000000; 
+   --color-3: #f5f5f5;
 }
 
-p {font-family: var(--lato); font-weight: var(--sm-1); font-size: 1.2rem;}
+header .header {
+   color: var(--color-3);
+   background-color: #000000;
+   padding: 0 20px;
+}
+
+header .header .brand-logo { 
+   font-family: var(--poppins);
+   font-weight: var(--lg);
+   transition: color 0.8s;
+}
+
+header .header .brand-logo:hover {
+   color: var(--color-1);
+   transition: color 0.8s;
+}
+
+header .header li a{
+   font-family: var(--lato);
+   font-weight: var(--lg);
+   transition: color 0.8s;
+}
+
+header .header li a:hover { 
+   transition: color 0.8s;
+   color: var(--color-1);
+}
+
+section .welcome {
+   height: 35rem;
+}
+
+@keyframes moveBanner {
+   0% {
+     transform: translateY(10rem) rotateY(-30deg);
+   }
+   100% {
+     transform: translateY(0) rotateY(0);
+     opacity: 1;
+   }
+ }
