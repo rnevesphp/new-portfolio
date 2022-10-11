@@ -1,7 +1,7 @@
 
-# MATE-WEB
+# NEW PORTFOLIO
 
-Aprendendo a implementar soluções rápidas, leves, bonitas e com responsividade em projetos futuros com o framework Materialize.
+Aprendendo a implementar soluções rápidas, leves, elegantes e com responsividade em projetos futuros com o framework Materialize.
 
 ### Authors
 
