@@ -10,50 +10,145 @@
    --md: 500; 
    --lg: 700;
 
-   --color-1: #F54C5B
-   ; 
-   --color-2: #000000; 
+   --color-1: #F54C5B; 
+   --color-2: #1a1717; 
    --color-3: #f5f5f5;
+   --color-4: #272121; 
 }
 
+/* HEADER */
 header .header {
    color: var(--color-3);
-   background-color: #000000;
-   padding: 0 20px;
+   background-color: var(--color-2);
+   padding: 0 25px;
 }
-
 header .header .brand-logo { 
    font-family: var(--poppins);
    font-weight: var(--lg);
    transition: color 0.8s;
 }
-
 header .header .brand-logo:hover {
    color: var(--color-1);
    transition: color 0.8s;
 }
-
 header .header li a{
    font-family: var(--lato);
    font-weight: var(--lg);
    transition: color 0.8s;
 }
-
 header .header li a:hover { 
    transition: color 0.8s;
    color: var(--color-1);
 }
+/* HEADER */
 
-section .welcome {
-   height: 35rem;
+/* WELCOME */
+.welcome {
+   background-color: var(--color-4);
+   height: 90vh;
+   color: var(--color-3);
+}
+.banner {
+   padding: 25px 15px;
+}
+.banner h1 { 
+   font-weight: var(--lg);
+   font-family: var(--poppins);
+   font-size: 2.4rem;
+}
+.banner h1 span { color: var(--color-1);}
+.banner p {
+   font-weight: var(--lg);
+   font-family: var(--lato);
+   font-size: 1.7rem;
+}
+.CV a {
+   background-color: var(--color-1);
+   color: var(--color-3);
+   font-family: var(--lato);
+   font-weight: var(--lg);
+   font-size: 1.2rem;
+   border-radius: 7px;
+   height: 3rem;
+   width: 16rem;
+   transition: background-color 1s;
+}
+.CV a i {
+   font-size: 1.5rem;
+}
+.CV a:hover {
+background-color: var(--color-1);
+}
+div.CV.btn-pc a {
+   margin: 0 0 0 28px;
+}
+/* WELCOME */
+
+/* MYSELF */
+.myself { 
+   background-color: var(--color-2);
+   height: 65vh;
+   padding: 30px 25px;
+}
+.myself .info-text h1{
+   color: var(--color-3);
+   font-weight: var(--lg);
+   font-family: var(--poppins);
+   font-size: 2.3rem;
+}
+.myself .info-text p{
+   color: var(--color-3);
+   font-family: var(--lato);
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+.myself .info-text span {
+   color: var(--color-1);
+   font-weight: var(--lg);
 }
 
-@keyframes moveBanner {
-   0% {
-     transform: translateY(10rem) rotateY(-30deg);
+/* MYSELF */
+
+/* SMALL DEVICES */
+@media screen and (max-width: 425px) {
+   section .banner-info {
+      text-align: center;
    }
-   100% {
-     transform: translateY(0) rotateY(0);
-     opacity: 1;
+   .banner .banner-info h1 { 
+      font-weight: 700;
+      font-size: 2rem;
+      margin: 70px 0 10px 0;
    }
- }
+   .banner p {
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin: 35px 0 35px 0;
+   }
+   .CV a {
+      background-color: var(--color-1);
+      color: var(--color-3);
+      font-family: var(--lato);
+      font-weight: var(--lg);
+      font-size: 1.2rem;
+      border-radius: 7px;
+      margin: 0 0 10px 0;
+   }
+   .myself { 
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 768px) { 
+   section .banner-info {
+      text-align: center;
+   }
+   .banner h1 { 
+      font-weight: 700;
+      font-size: 2rem;
+      margin: 20px 0 20px 0;
+   }
+   .banner p {
+      font-weight: 600;
+      font-size: 1.5rem;
+   }
+}

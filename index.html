@@ -36,7 +36,7 @@
    </header>
 
    <!-- button floating in SM and MD devices -->
-   <div class="fixed-action-btn hide-on-med-and-up">
+   <div class="fixed-action-btn hide-on-large-only">
       <a class="btn-floating btn-large waves-circle" style="background-color: #F54C5B;">
          <i class="large material-icons">menu</i>
       </a>
@@ -61,18 +61,49 @@
 
    <section class="welcome">
       <div class="banner row">
-         <div class="banner-info col s8 red">
-            <h1 class="flow-text">Criação, aplicação e melhora de produtos digitais com alta qualidade e rendimento
-               superior.</h1>
+         <div class="banner-info col s12 m12 l8">
+            <h1 class="flow-text">Criação, aplicação e melhora de produtos digitais com <br> <span> alta qualidade e
+                  rendimento
+                  superior.</span></h1>
             <p>Projetos de alta qualidade com rápida entrega para o mercado, trazendo conforto, despreocupação e
-               elegância</p>
+               elegância. </p>
          </div>
+      </div>
 
+      <!-- boton PC -->
+      <div class="CV btn-pc valign-wrapper hide-on-med-and-down show-on-large ">
+         <a class="btn PC " href="" download>Download CV<i class="material-icons">download</i></a>
+      </div>
+
+      <!-- boton tablet and mobile -->
+      <div class="CV center hide-on-large-only">
+         <a class="btn center valign-wrapper " href="" download>Download CV<i class="material-icons">download</i></a>
       </div>
    </section>
+
+   <section class="myself">
+      <div class="row ">
+         <div class="col s12 m12 l6  hide-on-med-and-down">
+
+         </div>
+         <div class="col s12 m12 l6  info-text">
+            <h1>Quem Sou.</h1>
+            <p class="flow-text">Olá, sou o Romeu Neves ou bem <span>"UNCODER"</span>, estou me formando em Técnico
+               Superior em
+               Desenvolvimento de Aplicações Web na Espanha. Estudo de forma auto-didata desde 2020 no ínicio da crise
+               COVID-19, foi quando me apaixonei pela área. Desde então faço cursos em plataformas onlines como: <br>
+               Balta.io, Rocketseat, NodeStudio Treianamentos e Cataline.io. </p>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
    <script src="js/materialize.js"></script>
-
    <script>
       // button initialization
       document.addEventListener('DOMContentLoaded', function () {
