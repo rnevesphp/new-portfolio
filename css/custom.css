@@ -16,6 +16,22 @@
    --color-4: #272121; 
 }
 
+/* text selection */
+body h1::selection { 
+   background-color: var(--color-1);
+   color: var(--color-3);
+}
+body span::selection { 
+   background-color: var(--color-1);
+   color: var(--color-3);
+}
+body p::selection { 
+   background-color: var(--color-1);
+   color: var(--color-3);
+}
+/* text selection */
+
+
 /* HEADER */
 header .header {
    color: var(--color-3);
@@ -56,7 +72,12 @@ header .header li a:hover {
    font-family: var(--poppins);
    font-size: 2.4rem;
 }
+/* .banner h1::selection { 
+   background-color: var(--color-1);
+   color: var(--color-3);
+} */
 .banner h1 span { color: var(--color-1);}
+/* .banner h1 span::selection { color: var(--color-3); background-color: var(--color-1);} */
 .banner p {
    font-weight: var(--lg);
    font-family: var(--lato);
@@ -67,10 +88,10 @@ header .header li a:hover {
    color: var(--color-3);
    font-family: var(--lato);
    font-weight: var(--lg);
-   font-size: 1.2rem;
+   font-size: 1rem;
    border-radius: 7px;
-   height: 3rem;
-   width: 16rem;
+   height: 5rem;
+   width: 12rem;
    transition: background-color 1s;
 }
 .CV a i {
@@ -87,7 +108,7 @@ div.CV.btn-pc a {
 /* MYSELF */
 .myself { 
    background-color: var(--color-2);
-   height: 65vh;
+   height: 90vh;
    padding: 30px 25px;
 }
 .myself .info-text h1{
@@ -129,8 +150,11 @@ div.CV.btn-pc a {
       color: var(--color-3);
       font-family: var(--lato);
       font-weight: var(--lg);
-      font-size: 1.2rem;
+      font-size: 1rem;
+      width: 14.5rem;
+      height: 5rem;
       border-radius: 7px;
+      padding: 0 0 10px 0;
       margin: 0 0 10px 0;
    }
    .myself { 
