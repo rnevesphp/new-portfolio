@@ -72,16 +72,15 @@ header .header li a:hover {
    font-family: var(--poppins);
    font-size: 2.4rem;
 }
-/* .banner h1::selection { 
-   background-color: var(--color-1);
-   color: var(--color-3);
-} */
 .banner h1 span { color: var(--color-1);}
-/* .banner h1 span::selection { color: var(--color-3); background-color: var(--color-1);} */
 .banner p {
    font-weight: var(--lg);
    font-family: var(--lato);
-   font-size: 1.7rem;
+   font-size: 1.3rem;
+}
+.banner img {
+   height: 350px;
+   width: 350px;
 }
 .CV a {
    background-color: var(--color-1);
@@ -101,7 +100,7 @@ header .header li a:hover {
 background-color: var(--color-1);
 }
 div.CV.btn-pc a {
-   margin: 0 0 0 28px;
+   margin: 30px 0 0 11px;
 }
 /* WELCOME */
 
