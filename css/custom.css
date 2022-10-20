@@ -3,33 +3,76 @@
 :root {
    /* Font */
    --poppins: "Poppins";
-   --lato: "Lato"; 
+   --lato: "Lato";
    /* Weight */
-   --sm: 300; 
+   --sm: 300;
    --sm-1: 400;
-   --md: 500; 
+   --md: 500;
    --lg: 700;
 
-   --color-1: #F54C5B; 
-   --color-2: #1a1717; 
+   --color-1: #F54C5B;
+   --color-2: #1a1717;
    --color-3: #f5f5f5;
-   --color-4: #272121; 
+   --color-4: #272121;
+   --color-5: #ec747e;
+
 }
 
 /* text selection */
-body h1::selection { 
+body h1::selection {
    background-color: var(--color-1);
    color: var(--color-3);
 }
-body span::selection { 
+
+body span::selection {
    background-color: var(--color-1);
    color: var(--color-3);
 }
-body p::selection { 
+
+body p::selection {
    background-color: var(--color-1);
    color: var(--color-3);
 }
-/* text selection */
+
+/* formatters */
+.section-formatter {
+
+   color: var(--color-3);
+   padding: 30px 25px;
+}
+
+.h1-text {
+   color: var(--color-3);
+   font-weight: var(--lg);
+   font-family: var(--poppins);
+   font-size: 2.3rem;
+}
+
+.p-text {
+   color: var(--color-3);
+   font-weight: var(--lg);
+   font-family: var(--lato);
+   font-size: 1.3rem;
+}
+
+
+
+
+
+/* formatters */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* HEADER */
@@ -38,140 +81,230 @@ header .header {
    background-color: var(--color-2);
    padding: 0 25px;
 }
-header .header .brand-logo { 
+
+header .header .brand-logo {
    font-family: var(--poppins);
    font-weight: var(--lg);
    transition: color 0.8s;
 }
+
 header .header .brand-logo:hover {
    color: var(--color-1);
    transition: color 0.8s;
 }
-header .header li a{
+
+header .header li a {
    font-family: var(--lato);
    font-weight: var(--lg);
    transition: color 0.8s;
 }
-header .header li a:hover { 
+
+header .header li a:hover {
    transition: color 0.8s;
    color: var(--color-1);
 }
+
 /* HEADER */
 
-/* WELCOME */
-.welcome {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* s-introducao */
+.s-introducao {
    background-color: var(--color-4);
-   height: 90vh;
-   color: var(--color-3);
 }
-.banner {
-   padding: 25px 15px;
+
+.banner h1 span {
+   color: var(--color-1);
 }
-.banner h1 { 
-   font-weight: var(--lg);
-   font-family: var(--poppins);
-   font-size: 2.4rem;
-}
-.banner h1 span { color: var(--color-1);}
-.banner p {
-   font-weight: var(--lg);
-   font-family: var(--lato);
-   font-size: 1.3rem;
-}
-.banner img {
-   height: 350px;
-   width: 350px;
-}
+
 .CV a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   width: 12.2rem;
+   height: 4rem;
+
    background-color: var(--color-1);
+   margin: 5rem 0 0 0;
    color: var(--color-3);
    font-family: var(--lato);
    font-weight: var(--lg);
    font-size: 1rem;
    border-radius: 7px;
-   height: 5rem;
-   width: 12rem;
-   transition: background-color 1s;
+
+   transition: width 1.5s;
 }
+
 .CV a i {
    font-size: 1.5rem;
 }
+
 .CV a:hover {
-background-color: var(--color-1);
+   background-color: var(--color-1);
+
+   transition: width 1.5s;
+   width: 16rem;
 }
-div.CV.btn-pc a {
-   margin: 30px 0 0 11px;
-}
-/* WELCOME */
+
+/* s-introducao */
+
+
+
+
+
+
+
+
+
+
+
 
 /* MYSELF */
-.myself { 
+.s-apresentacao {
    background-color: var(--color-2);
-   height: 90vh;
-   padding: 30px 25px;
 }
-.myself .info-text h1{
+
+.s-apresentacao .info p {
    color: var(--color-3);
-   font-weight: var(--lg);
-   font-family: var(--poppins);
-   font-size: 2.3rem;
 }
-.myself .info-text p{
-   color: var(--color-3);
-   font-family: var(--lato);
-   font-weight: 500;
-   font-size: 1.2rem;
-}
-.myself .info-text span {
+
+.s-apresentacao .info span {
    color: var(--color-1);
    font-weight: var(--lg);
 }
 
-/* MYSELF */
+/* button linkedin link */
+.s-apresentacao .linkedin {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   width: 14rem;
 
-/* SMALL DEVICES */
-@media screen and (max-width: 425px) {
-   section .banner-info {
-      text-align: center;
-   }
-   .banner .banner-info h1 { 
-      font-weight: 700;
-      font-size: 2rem;
-      margin: 70px 0 10px 0;
-   }
-   .banner p {
-      font-weight: 400;
-      font-size: 1.5rem;
-      margin: 35px 0 35px 0;
-   }
-   .CV a {
-      background-color: var(--color-1);
-      color: var(--color-3);
-      font-family: var(--lato);
-      font-weight: var(--lg);
-      font-size: 1rem;
-      width: 14.5rem;
-      height: 5rem;
-      border-radius: 7px;
-      padding: 0 0 10px 0;
-      margin: 0 0 10px 0;
-   }
-   .myself { 
-      text-align: center;
-   }
+   background-color: var(--color-1);
+   margin: 5rem 0 0 0;
+   color: var(--color-3);
+   font: normal normal var(--lg) 1rem var(--lato);
+   border-radius: 7px;
+   height: 4rem;
+
+   transition: width 1.5s;
 }
 
-@media screen and (max-width: 768px) { 
-   section .banner-info {
+.s-apresentacao .info .linkedin:hover {
+   transition: width 1.5s;
+   width: 16rem;
+
+}
+
+/* MYSELF */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECTS */
+.s-projetos {
+   background-color: var(--color-4);
+   color: var(--color-3);
+   padding: 30px 25px;
+}
+
+.s-projetos h1 {
+   margin: 0 0 0 10px;
+}
+
+.s-projetos .card-content span {
+   color: var(--color-1);
+}
+
+.s-projetos .card {
+   border-radius: 7px;
+   transition: border 2s;
+   background-color: var(--color-2);
+}
+
+.s-projetos .card:hover {
+   transition: border 2s;
+   border: 1px solid var(--color-1);
+}
+
+.s-projetos .card .card-title {
+   font: normal normal var(--lg) 1.5rem var(--poppins);
+}
+
+.s-projetos .card .card-action {
+   border-radius: 7px;
+}
+
+/* PROJECTS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+   .section-formatter {
       text-align: center;
    }
-   .banner h1 { 
-      font-weight: 700;
-      font-size: 2rem;
-      margin: 20px 0 20px 0;
+
+   .s-introducao .banner-info {
+      text-align: center;
    }
-   .banner p {
-      font-weight: 600;
-      font-size: 1.5rem;
+
+   .banner .banner-info .CV {
+      display: flex;
+      align-items: center;
+      justify-content: center;
    }
+
+   .s-apresentacao .info {
+      text-align: center;
+   }
+
 }
