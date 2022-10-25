@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@500;600;700&display=swap');
 
+html {
+   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+   width: 5px;
+   background-color: none;
+}
+
+::-webkit-scrollbar-track {
+   background-color: var(--color-2);
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--color-1);
+   border-radius: 5px;
+}
+
 :root {
    /* Font */
    --poppins: "Poppins";
@@ -36,7 +54,6 @@ body p::selection {
 
 /* formatters */
 .section-formatter {
-
    color: var(--color-3);
    padding: 30px 25px;
 }
@@ -55,28 +72,18 @@ body p::selection {
    font-size: 1.3rem;
 }
 
-
-
-
-
 /* formatters */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HEADER */
+header {
+   width: 100%;
+   position: fixed;
+
+   z-index: 1;
+}
+
 header .header {
+
+
    color: var(--color-3);
    background-color: var(--color-2);
    padding: 0 25px;
@@ -105,27 +112,6 @@ header .header li a:hover {
 }
 
 /* HEADER */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* s-introducao */
 .s-introducao {
    background-color: var(--color-4);
@@ -140,9 +126,8 @@ header .header li a:hover {
    justify-content: center;
    align-items: center;
    gap: 5px;
-   width: 12.2rem;
+   width: 14rem;
    height: 4rem;
-
    background-color: var(--color-1);
    margin: 5rem 0 0 0;
    color: var(--color-3);
@@ -150,7 +135,6 @@ header .header li a:hover {
    font-weight: var(--lg);
    font-size: 1rem;
    border-radius: 7px;
-
    transition: width 1.5s;
 }
 
@@ -160,21 +144,11 @@ header .header li a:hover {
 
 .CV a:hover {
    background-color: var(--color-1);
-
    transition: width 1.5s;
    width: 16rem;
 }
 
 /* s-introducao */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -199,47 +173,59 @@ header .header li a:hover {
    align-items: center;
    gap: 15px;
    width: 14rem;
-
    background-color: var(--color-1);
    margin: 5rem 0 0 0;
    color: var(--color-3);
    font: normal normal var(--lg) 1rem var(--lato);
    border-radius: 7px;
    height: 4rem;
-
    transition: width 1.5s;
 }
 
 .s-apresentacao .info .linkedin:hover {
    transition: width 1.5s;
    width: 16rem;
-
 }
 
 /* MYSELF */
 
+/* conhecimentos */
+.s-conhecimentos {
+   background-color: var(--color-4);
+   color: var(--color-3);
+   padding: 30px 25px;
+   height: auto;
+}
 
+.s-conhecimentos h1 {
+   margin: 0 0 0 10px;
+}
 
+.s-conhecimentos .card {
+   border-radius: 7px;
+   background-color: var(--color-2);
+   transition: box-shadow 1.2s ease-in-out;
+}
 
+.s-conhecimentos .card .card-content a {
+   color: var(--color-1);
+}
 
+.s-conhecimentos .card .card-reveal {
+   background-color: var(--color-2);
+}
 
+.s-conhecimentos .card:hover {
+   box-shadow: 0px 0px 15px 6px var(--color-1);
+   transition: box-shadow 1.2s ease-in-out;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* conhecimentos */
 
 /* PROJECTS */
 .s-projetos {
-   background-color: var(--color-4);
+   height: auto;
+   background-color: var(--color-2);
    color: var(--color-3);
    padding: 30px 25px;
 }
@@ -254,13 +240,21 @@ header .header li a:hover {
 
 .s-projetos .card {
    border-radius: 7px;
-   transition: border 2s;
-   background-color: var(--color-2);
+   transition: box-shadow 1.2s ease-in-out;
+   background-color: var(--color-4);
+}
+
+.s-projetos .card .card-action a {
+   color: var(--color-1);
+}
+
+.s-projetos .card .card-action a:hover {
+   color: var(--color-3);
 }
 
 .s-projetos .card:hover {
-   transition: border 2s;
-   border: 1px solid var(--color-1);
+   transition: box-shadow 1s;
+   box-shadow: 0px 0px 15px 6px var(--color-1);
 }
 
 .s-projetos .card .card-title {
@@ -273,19 +267,111 @@ header .header li a:hover {
 
 /* PROJECTS */
 
+/*  */
+.s-contato {
+   background-color: var(--color-4);
+}
 
+.s-contato h1 {
+   margin: 0 0 0 10px;
+}
 
+.s-contato .card {
+   background-color: var(--color-2);
+   margin: 0 0 0 10px;
+}
 
+.s-contato form .input-field input[type=text] {
+   color: var(--color-3);
+}
 
+.s-contato form .input-field input[type=text]:focus+label {
+   color: var(--color-1);
+   font-size: 1.3rem;
+}
 
+.s-contato form .input-field input[type=text]:focus {
+   border-bottom: 1px solid var(--color-1);
+   box-shadow: 0 1px 0 0 #000;
+}
 
+.s-contato form .input-field input[type=email] {
+   color: var(--color-3);
+}
 
+.s-contato form .input-field input[type=email]:focus+label {
+   color: var(--color-1);
+   font-size: 1.3rem;
+}
 
+.s-contato form .input-field input[type=email]:focus {
+   border-bottom: 1px solid var(--color-1);
+   box-shadow: 0 1px 0 0 #000;
+}
 
+.s-contato form .input-field .materialize-textarea label {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.3rem;
+}
 
+.s-contato form .input-field .materialize-textarea:focus+label {
+   color: var(--color-1);
+   font-size: 1.3rem;
+}
 
+.s-contato form .input-field .materialize-textarea:focus {
+   border-bottom: 1px solid var(--color-1);
+   box-shadow: 0 1px 0 0 #000;
+}
 
+.s-contato form .input-field .materialize-textarea {
+   color: var(--color-3);
+}
 
+.s-contato .btn-send {
+   margin: 0 0 0 6px;
+}
+
+.s-contato .btn-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   width: 14rem;
+   height: 4rem;
+   background-color: var(--color-1);
+   margin: 5rem 0 0 0;
+   color: var(--color-3);
+   font-family: var(--lato);
+   font-weight: var(--lg);
+   font-size: 1rem;
+   border-radius: 7px;
+   transition: width 1.5s;
+}
+
+.s-contato .btn-form:hover {
+   transition: width 1.5s;
+   width: 16rem;
+}
+
+/* contato */
+
+/* footer */
+
+footer {
+   background-color: var(--color-2);
+   color: var(--color-3);
+   padding: 0 25px;
+}
+
+footer span {
+   color: var(--color-1);
+}
+
+/* footer */
 
 
 @media screen and (max-width: 768px) {
@@ -304,7 +390,16 @@ header .header li a:hover {
    }
 
    .s-apresentacao .info {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
    }
 
+   .s-contato .card .card-content .CV {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
 }
