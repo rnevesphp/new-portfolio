@@ -1,8 +1,8 @@
 
 # PORTFOLIO
+Olá, sou Romeu Neves ou bem "TheUncoder", apliquei esse nome para ser reconhecido melhormente no mundo da programação e do desenvolvimento já que um dos meus sonhos é fazer que todos alcancem o mundo do desenvolvimento de maneira fácil e rápida. 
 
-Aprendendo a implementar soluções rápidas, leves, elegantes e com responsividade em projetos futuros com o framework Materialize.
-
+Minha primeira criação de um projeto completamente autonômo.Desde o Design, criação e construção do site, todos os aspectos foram pensados e executados de maneira autonôma e com isso trago o 1º projeto de uma série de outros projetos completamente autonômos e pensados e executados por mim com o objetivo de desenvolver a capacidade de criar projetos de alta qualidade e completamente elegantes para o mercado laboral.
 
 ## Acknowledgements
 
@@ -10,6 +10,8 @@ Aprendendo a implementar soluções rápidas, leves, elegantes e com responsivid
  - [Lord Icons](https://lordicon.com/?utm_source=cssdesignawards&utm_medium=banner&utm_campaign=css)
  - [Material Icons & Material Symbols](https://fonts.google.com/icons)
  - [Reference Course (PT-br)](https://www.nodestudio.com.br/curso/curso-de-materialize-css)
+ - [FormSubmit API - used to send emails without JS functions](https://formsubmit.co/)
+ - [Image Database](https://freepik.com)
  
 
 
@@ -26,7 +28,7 @@ Aprendendo a implementar soluções rápidas, leves, elegantes e com responsivid
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
 </a> 
 <a href = "https://portf-romeunr.herokuapp.com/">
-<img src="https://img.shields.io/badge/MY WEB-a044ff?style=for-the-badge&logo=&logoColor=white" target="_blank">
+<img src="https://img.shields.io/badge/MYWEB-a044ff?style=for-the-badge&logo=&logoColor=white" target="_blank">
 </a>
 <a href = "https://www.linkedin.com/in/romeu-neves-6b1340184/">
 <img src="https://img.shields.io/badge/Linkedin-0077b5?style=for-the-badge&logo=Linkedin&logoColor=white" target="_blank">

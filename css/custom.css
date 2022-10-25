@@ -4,6 +4,7 @@ html {
    scroll-behavior: smooth;
 }
 
+/* scrollbar style */
 ::-webkit-scrollbar {
    width: 5px;
    background-color: none;
@@ -18,22 +19,23 @@ html {
    border-radius: 5px;
 }
 
+/* scrollbar style */
+
+/* variables */
 :root {
    /* Font */
    --poppins: "Poppins";
    --lato: "Lato";
    /* Weight */
    --sm: 300;
-   --sm-1: 400;
    --md: 500;
    --lg: 700;
-
+   /* colors */
    --color-1: #F54C5B;
    --color-2: #1a1717;
    --color-3: #f5f5f5;
    --color-4: #272121;
    --color-5: #ec747e;
-
 }
 
 /* text selection */
@@ -52,6 +54,7 @@ body p::selection {
    color: var(--color-3);
 }
 
+/* text selection */
 /* formatters */
 .section-formatter {
    color: var(--color-3);
@@ -73,20 +76,21 @@ body p::selection {
 }
 
 /* formatters */
-/* HEADER */
+/* header */
 header {
    width: 100%;
    position: fixed;
-
    z-index: 1;
 }
 
 header .header {
-
-
    color: var(--color-3);
    background-color: var(--color-2);
    padding: 0 25px;
+}
+
+header .header a {
+   padding: 0 0 0 11px;
 }
 
 header .header .brand-logo {
@@ -111,10 +115,14 @@ header .header li a:hover {
    color: var(--color-1);
 }
 
-/* HEADER */
+/* header */
 /* s-introducao */
 .s-introducao {
    background-color: var(--color-4);
+}
+
+.banner {
+   margin: 2rem 0 0 0;
 }
 
 .banner h1 span {
@@ -152,7 +160,7 @@ header .header li a:hover {
 
 
 
-/* MYSELF */
+/* s-apresentacao */
 .s-apresentacao {
    background-color: var(--color-2);
 }
@@ -187,9 +195,9 @@ header .header li a:hover {
    width: 16rem;
 }
 
-/* MYSELF */
+/* s-apresentacao */
 
-/* conhecimentos */
+/* s-conhecimentos */
 .s-conhecimentos {
    background-color: var(--color-4);
    color: var(--color-3);
@@ -220,9 +228,9 @@ header .header li a:hover {
    transition: box-shadow 1.2s ease-in-out;
 }
 
-/* conhecimentos */
+/* s-conhecimentos */
 
-/* PROJECTS */
+/* s-projetos */
 .s-projetos {
    height: auto;
    background-color: var(--color-2);
@@ -265,9 +273,9 @@ header .header li a:hover {
    border-radius: 7px;
 }
 
-/* PROJECTS */
+/* s-projetos */
 
-/*  */
+/* s-contato */
 .s-contato {
    background-color: var(--color-4);
 }
@@ -357,7 +365,11 @@ header .header li a:hover {
    width: 16rem;
 }
 
-/* contato */
+.s-contato .img-contato img {
+   margin: 0 0 0 35px;
+}
+
+/* s-contato */
 
 /* footer */
 
@@ -373,7 +385,7 @@ footer span {
 
 /* footer */
 
-
+/* some responsive styles on small and medium devices */
 @media screen and (max-width: 768px) {
    .section-formatter {
       text-align: center;
