@@ -38,3 +38,9 @@ Minha primeira criação de um projeto completamente autonômo.Desde o Design, c
 
 ## Techs
 <img align="center" alt="Romeu-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" /><img  align="center" alt="Romeu-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /><img align="center" alt="Romeu-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+
+
+## Task List 
+[] Change Languages
+[] Light Mode
+[] Blog (maybe)
