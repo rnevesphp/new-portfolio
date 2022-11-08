@@ -104,10 +104,15 @@ header .header .brand-logo:hover {
    transition: color 0.8s;
 }
 
+header .header li {
+   margin: 0 5px;
+}
+
 header .header li a {
    font-family: var(--lato);
    font-weight: var(--lg);
    transition: color 0.8s;
+   padding: 0 5px 0 5px;
 }
 
 header .header li a:hover {
