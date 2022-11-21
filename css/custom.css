@@ -38,6 +38,12 @@ html {
    --color-5: #ec747e;
 }
 
+.btn-translate {
+   position: fixed;
+   left: 25px;
+   bottom: 23px;
+}
+
 /* text selection */
 body h1::selection {
    background-color: var(--color-1);
@@ -58,7 +64,7 @@ body p::selection {
 /* formatters */
 .section-formatter {
    color: var(--color-3);
-   padding: 30px 25px;
+   padding: 30px 30px;
 }
 
 .h1-text {
