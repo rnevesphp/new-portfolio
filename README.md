@@ -1,6 +1,6 @@
 
 # PORTFOLIO
-Olá, sou Romeu Neves ou bem "TheUncoder", apliquei esse nome para ser reconhecido melhormente no mundo da programação e do desenvolvimento já que um dos meus sonhos é fazer que todos alcancem o mundo do desenvolvimento de maneira fácil e rápida. 
+Olá, sou Romeu Neves ou bem "Uncoder", apliquei esse nome para ser reconhecido melhormente no mundo da programação e do desenvolvimento já que um dos meus sonhos é fazer que todos alcancem o mundo do desenvolvimento de maneira fácil e rápida. 
 
 Minha primeira criação de um projeto completamente autonômo.Desde o Design, criação e construção do site, todos os aspectos foram pensados e executados de maneira autonôma e com isso trago o 1º projeto de uma série de outros projetos completamente autonômos e pensados e executados por mim com o objetivo de desenvolver a capacidade de criar projetos de alta qualidade e completamente elegantes para o mercado laboral.
 
@@ -27,8 +27,8 @@ Minha primeira criação de um projeto completamente autonômo.Desde o Design, c
 <a href = "mailto:nevesromeu21@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
 </a> 
-<a href = "https://portf-romeunr.herokuapp.com/">
-<img src="https://img.shields.io/badge/MYWEB-a044ff?style=for-the-badge&logo=&logoColor=white" target="_blank">
+<a href = "https://theuncoder.netlify.app">
+<img src="https://img.shields.io/badge/Portfolio-a044ff?style=for-the-badge&logo=&logoColor=white" target="_blank">
 </a>
 <a href = "https://www.linkedin.com/in/romeu-neves-6b1340184/">
 <img src="https://img.shields.io/badge/Linkedin-0077b5?style=for-the-badge&logo=Linkedin&logoColor=white" target="_blank">
@@ -41,6 +41,6 @@ Minha primeira criação de um projeto completamente autonômo.Desde o Design, c
 
 
 ## Task List 
-[] Change Languages
-[] Light Mode
-[] Blog (maybe)
+[x] - Change Languages &nbsp; :white_check_mark:<br>
+[ &nbsp;] - Light Mode <br>
+[ &nbsp;] - Blog <br>
