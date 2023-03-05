@@ -27,15 +27,15 @@ html {
    --poppins: "Poppins";
    --lato: "Lato";
    /* Weight */
-   --sm: 300;
+   --sm: 450;
    --md: 500;
    --lg: 700;
    /* colors */
-   --color-1: #F54C5B;
-   --color-2: #1a1717;
+   --color-1: #079642;
+   --color-2: #11051e;
    --color-3: #f5f5f5;
-   --color-4: #272121;
-   --color-5: #ec747e;
+   --color-4: #230f3b;
+   --color-5: #13e46a;
 }
 
 .btn-translate {
@@ -76,9 +76,9 @@ body p::selection {
 
 .p-text {
    color: var(--color-3);
-   font-weight: var(--lg);
+   font-weight: var(--sm);
    font-family: var(--lato);
-   font-size: 1.3rem;
+   font-size: 1.4rem;
 }
 
 /* formatters */
@@ -138,6 +138,36 @@ header .header li a:hover {
 
 .banner h1 span {
    color: var(--color-1);
+}
+
+.banner p span { 
+   color: var(--color-1);
+}
+
+.txt-animation {
+   white-space: nowrap;
+   border-right: 2.5px solid var(--color-1);
+   width: 18ch;
+   overflow: hidden;
+   animation:
+      type 4s steps(18),
+      cursor .5s infinite step-end alternate;
+}
+
+@keyframes type {
+   from {
+      width: 0;
+   }
+}
+
+@keyframes cursor {
+   50% {
+      border-color: transparent;
+   }
+}
+
+.banner h1#siteContent span i { 
+   color: #ffe748 !important;
 }
 
 .CV a {
@@ -235,7 +265,7 @@ header .header li a:hover {
 }
 
 .s-conhecimentos .card:hover {
-   box-shadow: 0px 0px 15px 6px var(--color-1);
+   box-shadow: 0px 0px 5px 4px var(--color-1);
    transition: box-shadow 1.2s ease-in-out;
 }
 
@@ -259,22 +289,25 @@ header .header li a:hover {
 
 .s-projetos .card {
    border-radius: 7px;
-   transition: box-shadow 1.2s ease-in-out;
+   transition: box-shadow 1s ease-out;
    background-color: var(--color-4);
 }
 
+
+.s-projetos .card:hover {
+   transition: box-shadow 1s ease-out;
+   box-shadow: 0px 0px 5px 4px var(--color-1);
+}
+
 .s-projetos .card .card-action a {
-   color: var(--color-1);
+   color: var(--color-1) !important;
 }
 
 .s-projetos .card .card-action a:hover {
-   color: var(--color-3);
+   color: var(--color-5);
 }
 
-.s-projetos .card:hover {
-   transition: box-shadow 1s;
-   box-shadow: 0px 0px 15px 6px var(--color-1);
-}
+
 
 .s-projetos .card .card-title {
    font: normal normal var(--lg) 1.5rem var(--poppins);
@@ -410,6 +443,10 @@ footer span {
       display: flex;
       align-items: center;
       justify-content: center;
+   }
+
+   .banner .banner-info .txt-animation { 
+      text-align: center !important;
    }
 
    .s-apresentacao .info {
