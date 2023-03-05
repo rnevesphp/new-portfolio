@@ -27,8 +27,8 @@ Minha primeira criação de um projeto completamente autonômo.Desde o Design, c
 <a href = "mailto:nevesromeu21@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
 </a> 
-<a href = "https://portf-romeunr.herokuapp.com/">
-<img src="https://img.shields.io/badge/MYWEB-a044ff?style=for-the-badge&logo=&logoColor=white" target="_blank">
+<a href = "https://theuncoder.netlify.app">
+<img src="https://img.shields.io/badge/Portfolio-a044ff?style=for-the-badge&logo=&logoColor=white" target="_blank">
 </a>
 <a href = "https://www.linkedin.com/in/romeu-neves-6b1340184/">
 <img src="https://img.shields.io/badge/Linkedin-0077b5?style=for-the-badge&logo=Linkedin&logoColor=white" target="_blank">
@@ -41,6 +41,6 @@ Minha primeira criação de um projeto completamente autonômo.Desde o Design, c
 
 
 ## Task List 
-[] Change Languages
-[] Light Mode
-[] Blog (maybe)
+[x] - Change Languages &nbsp; :white_check_mark:<br>
+[ &nbsp;] - Light Mode <br>
+[ &nbsp;] - Blog <br>
