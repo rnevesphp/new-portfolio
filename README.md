@@ -1,6 +1,6 @@
 
 # PORTFOLIO
-Olá, sou Romeu Neves ou bem "TheUncoder", apliquei esse nome para ser reconhecido melhormente no mundo da programação e do desenvolvimento já que um dos meus sonhos é fazer que todos alcancem o mundo do desenvolvimento de maneira fácil e rápida. 
+Olá, sou Romeu Neves ou bem "Uncoder", apliquei esse nome para ser reconhecido melhormente no mundo da programação e do desenvolvimento já que um dos meus sonhos é fazer que todos alcancem o mundo do desenvolvimento de maneira fácil e rápida. 
 
 Minha primeira criação de um projeto completamente autonômo.Desde o Design, criação e construção do site, todos os aspectos foram pensados e executados de maneira autonôma e com isso trago o 1º projeto de uma série de outros projetos completamente autonômos e pensados e executados por mim com o objetivo de desenvolver a capacidade de criar projetos de alta qualidade e completamente elegantes para o mercado laboral.
 
