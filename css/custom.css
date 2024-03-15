@@ -147,7 +147,7 @@ header .header li a:hover {
 .txt-animation {
    white-space: nowrap;
    border-right: 2.5px solid var(--color-1);
-   width: 18ch;
+   width: 100%;
    overflow: hidden;
    animation:
       type 4s steps(18),
@@ -306,8 +306,6 @@ header .header li a:hover {
 .s-projetos .card .card-action a:hover {
    color: var(--color-5);
 }
-
-
 
 .s-projetos .card .card-title {
    font: normal normal var(--lg) 1.5rem var(--poppins);
